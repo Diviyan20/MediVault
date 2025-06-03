@@ -12,33 +12,38 @@ This is a React-based Medical Entries Dashboard that allows users to view, manag
 
 Each entry displays key details such as the name of the treatment or test, the date, status, and (for doctor visits) the doctor’s name. Users can add new records through a modal form and delete existing ones for easy management.
 
+
 🔧 **Features**
+
 Tab-based navigation for clean separation of medical record types.
 
-Responsive card-style UI for displaying medical entries.
+- Responsive card-style UI for displaying medical entries.
 
-Modal form for adding new records with input validation.
+- Modal form for adding new records with input validation.
 
-Inline delete functionality for removing individual records.
+- Inline delete functionality for removing individual records.
 
-Pre-filled dummy data for testing and demonstration.
+- Pre-filled dummy data for testing and demonstration.
+- 
 
 🚧 **Work in Progress**
+
 This project is still under development. Planned upcoming features include:
 
-Edit functionality for existing records.
+- Edit functionality for existing records.
 
-Status customization and filters.
+- Status customization and filters.
 
-Backend integration with Firebase or MongoDB for persistent data.
+- Backend integration with Firebase or MongoDB for persistent data.
 
-Authentication and user-specific data.
+- Authentication and user-specific data.
 
 🛠️ **Tech Stack**
-**React** for UI
 
-**React Router** for navigation
+- **React** for UI
 
-**Custom CSS **for styling
+- **React Router** for navigation
 
-**Firebase (Planned)** for auth and database
+- **Custom CSS** for styling
+
+- **Firebase (Planned)** for auth and database
