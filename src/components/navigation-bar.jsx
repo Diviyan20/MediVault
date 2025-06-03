@@ -31,7 +31,7 @@ const NavigationBar = ({handleLogout}) =>{
                     <img src="profile.png" alt="Profile" className='profile-img'/>
                     {dropdownOpen && (
                         <div className='dropdown-menu'>
-                            <div className="dropdown-item">Profile</div>
+                            <div className="dropdown-item" onClick={()=> navigate('/profile')}>Profile</div>
                             <div className="dropdown-item">Account</div>
                             <div className="dropdown-item">Settings</div>
                             <div className="dropdown-item" onClick={handleLogout}>Logout</div>
