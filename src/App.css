@@ -1,0 +1,105 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  min-height: 100vh;
+  padding-top: 1rem;
+  text-align: center;
+}
+
+.title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+.content{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.1rem;
+  max-width: 600px;
+}
+
+.login-container{
+  border: 1px solid #ccc;
+  padding: 2rem;
+  width: 350px;
+  margin: 2rem auto;
+  text-align: center;
+  background-color: #121212;
+  color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+.login-heading {
+  margin-bottom: 1.5rem;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.login-input {
+  padding: 0.7rem;
+  font-size: 1rem;
+  border: 1px solid white;
+  background-color: transparent;
+  color: white;
+  border-radius: 4px;
+}
+
+.login-button {
+  display: flexbox;
+  max-width: 50px;
+  align-self: center;
+}
+
+.signup-text {
+  margin-top: 2rem;
+  font-size: 0.9rem;
+}
+
+.signup-link {
+  color: #4fc3f7;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.dashboard.container{
+  padding: 2rem;
+}
+
+.dashboard{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  color: #f9fafb;
+}
+
+.dashboard-content {
+  display: flex;
+  gap: 25rem;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.logout-button{
+  padding: 10px 20px;
+  background-color: #ff4d4f;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.logout-button:hover{
+  background-color: #d9363e;
+}
