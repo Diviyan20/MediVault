@@ -1,13 +1,14 @@
 🩺 **Medical Entries Dashboard (React)**
+
 This is a React-based Medical Entries Dashboard that allows users to view, manage, and organize personal medical records across four categories:
 
-Prescriptions
+- Prescriptions
 
-Vaccination Records
+- Vaccination Records
 
-Test Results
+- Test Results
 
-Doctor Visits
+- Doctor Visits
 
 Each entry displays key details such as the name of the treatment or test, the date, status, and (for doctor visits) the doctor’s name. Users can add new records through a modal form and delete existing ones for easy management.
 
