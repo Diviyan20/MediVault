@@ -1,12 +1,43 @@
-# React + Vite
+🩺 **Medical Entries Dashboard (React)**
+This is a React-based Medical Entries Dashboard that allows users to view, manage, and organize personal medical records across four categories:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Prescriptions
 
-Currently, two official plugins are available:
+Vaccination Records
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Test Results
 
-## Expanding the ESLint configuration
+Doctor Visits
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Each entry displays key details such as the name of the treatment or test, the date, status, and (for doctor visits) the doctor’s name. Users can add new records through a modal form and delete existing ones for easy management.
+
+🔧 **Features**
+Tab-based navigation for clean separation of medical record types.
+
+Responsive card-style UI for displaying medical entries.
+
+Modal form for adding new records with input validation.
+
+Inline delete functionality for removing individual records.
+
+Pre-filled dummy data for testing and demonstration.
+
+🚧 **Work in Progress**
+This project is still under development. Planned upcoming features include:
+
+Edit functionality for existing records.
+
+Status customization and filters.
+
+Backend integration with Firebase or MongoDB for persistent data.
+
+Authentication and user-specific data.
+
+🛠️ **Tech Stack**
+**React** for UI
+
+**React Router** for navigation
+
+**Custom CSS **for styling
+
+**Firebase (Planned)** for auth and database
