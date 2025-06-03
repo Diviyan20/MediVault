@@ -24,7 +24,7 @@ Tab-based navigation for clean separation of medical record types.
 - Inline delete functionality for removing individual records.
 
 - Pre-filled dummy data for testing and demonstration.
-- 
+
 
 🚧 **Work in Progress**
 
